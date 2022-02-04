@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <label class="label" for="lenght">Length of Rectangle</label>
+        <input type="number" id="length" min="1" />
+      </div>
+      <div class="content">
+        <label class="label" for="width">Width of Rectangle</label>
+        <input type="number" id="width" min="1" />
+      </div>
+
+      <div class="content">
+        <button class="btn" type="button" onclick="myfunction()">
+          Calculate Area and Perimeter
+        </button>
+      </div>
+      <div class="content result">
+        <h3 id="area"></h3>
+        <br />
+        <h3 id="para"></h3>
+      </div>
+    </div>
+  </body>
+</html>
